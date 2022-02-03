@@ -39,6 +39,7 @@ See https://angular.io/cli. You can check the result of installation,
 ```
 
 Browse localhost:4200 from your local browser.
+
 <img src="doc/angular-welcome-page.png" width="400" alt="The first result of Angular"/>
 
 Add the following settings into .browserslistrc or update Angular if you get an error ` Invalid version: “15.2-15.3”`.
