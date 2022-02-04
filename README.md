@@ -67,7 +67,7 @@ If you want to update npm, type like as follows
 
 6. Insert a line `"main" : "main.js"` to package.json.
 
-7. make main.js in the top directory.
+7. Make main.js in the top directory.
 
    ```
    const {app, BrowserWindow} = require('electron');
@@ -79,7 +79,7 @@ If you want to update npm, type like as follows
      win.loadURL(url.format({
        pathname: path.join(
          __dirname,
-         'dist/my-proj/index.html'),
+         'dist/angular-electron-example/index.html'),
        protocol: 'file:',
        slashes: true
      }))
