@@ -25,41 +25,39 @@ If you want to update npm, type like as follows
 %> npm install -g @angular/cli
 ```
 
-In some your directory, you can make angular environment as follows
+## Clone the repository
 
 ```
-%> ng new my-first-project
+%> git clone https://github.com/siro-2021/angular-electron-example.git
 ```
 
-See https://angular.io/cli. You can check the result of installation,
-
+##  Install dependencies
 ```
-%> cd my-first-project
-%> ng serve
+%> npm install
 ```
 
-Browse localhost:4200 from your local browser.
-
-<img src="doc/angular-welcome-page.png" width="400" alt="The first result of Angular"/>
-
-Add the following settings into .browserslistrc or update Angular if you get an error ` Invalid version: “15.2-15.3”`.
-
-   ```
-   not ios_saf 15.2-15.3
-   not safari 15.2-15.3
-   ```
-
-## Install Electron
-
-In the directory you have made in the above,
-
+## Run
 ```
-%> npm install --save-dev electron
+%> npm run electron
 ```
 
-## Setting to insert Electron to Angular environment.
+# Setting to insert Electron to Angular environment.
+1. Make angular environment.
+```
+%> ng new angular-electron-example
+```
 
-1. Insert a script to build & run into a scripts section in package.json
+2. Install dependencies in the directory you have made.
+```
+%> npm install
+```
+
+3. Install Electron
+```
+%> npm install electron
+```
+
+5. Insert a script to build & run into a scripts section in package.json
 
    ```
    "scripts": {
@@ -67,9 +65,9 @@ In the directory you have made in the above,
    }
    ```
 
-2. Insert a line `"main" : "main.js"` to package.json.
+6. Insert a line `"main" : "main.js"` to package.json.
 
-3. make main.js in the top directory.
+7. make main.js in the top directory.
 
    ```
    const {app, BrowserWindow} = require('electron');
@@ -90,11 +88,11 @@ In the directory you have made in the above,
    app.on('ready', onReady);
    ```
 
-4. change` <base href="/">` to `<base href="./">` in src/index.html
+8. Change` <base href="/">` to `<base href="./">` in src/index.html
 
-## Run
-
+9. Run
 ```
 %> npm run electron
 ```
+
 <img src="doc/electron-welcome-page.png" width="400" alt="The first result of introducing Electron."/>
