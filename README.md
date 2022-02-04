@@ -47,6 +47,8 @@ If you want to update npm, type like as follows
 
 <img src="doc/electron-welcome-page.png" width="400" alt="The first result of introducing Electron."/>
 
+If you are using version 13.2.0 @angular/cli, you may get the error "Invalid version: 15.2-15.3". In this case, please update Angular.
+See [This post](https://exerror.com/compiling-with-angular-sources-in-ivy-partial-compilation-mode-transform-failed-with-1-error-error-invalid-version-15-2-15-3/).
 
 # Setting to insert Electron to Angular environment.
 1. Make angular environment.
