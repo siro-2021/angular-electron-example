@@ -9,7 +9,7 @@ The last section shows how to install Electron in Angular's default environment.
 | Node.js      | 16.13.2 | [Node.js](https://nodejs.org/en/)                                                                                                                                                       |
 | npm          | 8.4.0   | [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)                                                                                                                |
 | Angular cli  | 13.2.0  | [Angular CLI](https://github.com/angular/angular-cli),  [Angular CLI Overview and Command Reference](https://angular.io/cli), [Karma](https://karma-runner.github.io/latest/index.html) |
-| Electron     | 17.0.0  | [Electron]()                                                                                                                                                                            |
+| Electron     | 17.0.0  | [Electron](https://www.electronjs.org/)                                                                                                                                                                            |
 
 # Install
 
