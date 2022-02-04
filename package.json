@@ -1,5 +1,5 @@
 {
-  "name": "my-proj",
+  "name": "angular-electron-example",
   "version": "0.0.0",
   "main" : "main.js",
   "scripts": {
